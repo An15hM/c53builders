@@ -71,7 +71,7 @@
 }
 
 body {
-	background-color: #343434;
+	background-color: #373e49;
 	padding: 0;
 	margin: 0;
 	font-size: 16px;
@@ -434,7 +434,7 @@ a, a:hover {
 	bottom: 0;
 	width: 100vw;
 	height: 100vh;
-	background-color: #343434;
+	background-color: #373e49;
 	opacity: 0;
 	pointer-events: none;
 	z-index: 99999999999;
@@ -460,7 +460,7 @@ a, a:hover {
 	position: relative;
 	overflow: hidden;
 	width: 200px;
-	background-color: #343434;
+	background-color: #373e49;
 }
 
 .mry-app .mry-preloader .mry-preloader-content .mry-loader-bar .mry-loader {
@@ -489,7 +489,7 @@ a, a:hover {
 }
 
 .mry-app .mry-top-panel .mry-logo-frame {
-	background-color: #343434;
+	background-color: #373e49;
 	display: block;
 	display: flex;
 	justify-content: flex-start;
@@ -509,7 +509,7 @@ a, a:hover {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	background-color: #343434;
+	background-color: #373e49;
 }
 
 .mry-menu-button-frame .mry-label {
@@ -584,7 +584,7 @@ a, a:hover {
 	z-index: 98;
 	top: 0;
 	right: 0;
-	background-color: #343434;
+	background-color: #373e49;
 	transform: translateX(100%);
 	transition: 0.3s ease-in-out;
 	transition-delay: 0.2s;
@@ -685,7 +685,7 @@ a, a:hover {
 	padding: 40px;
 	position: absolute;
 	width: 500%;
-	background-color: #343434;
+	background-color: #373e49;
 	height: 100vh;
 	display: flex;
 	align-items: center;
@@ -811,7 +811,7 @@ html.is-animating .transition-fade .mry-loading-curtain {
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background-color: #343434;
+	background-color: #373e49;
 	z-index: 1;
 }
 
@@ -842,7 +842,7 @@ html.is-animating .transition-fade .mry-loading-curtain {
 	left: 0;
 	width: 100%;
 	height: 555px;
-	background-image: linear-gradient(0deg, #343434 1%, rgba(20, 20, 20, 0.85) 100%, rgba(20, 20, 20, 0.8) 100%);
+	background-image: linear-gradient(0deg, #373e49 1%, rgba(20, 20, 20, 0.85) 100%, rgba(20, 20, 20, 0.8) 100%);
 }
 
 .mry-head-bg.mry-head-bottom {
@@ -992,7 +992,7 @@ html.is-animating .transition-fade .mry-loading-curtain {
 }
 
 .mry-project-slider-item .mry-project-frame .mry-cover-overlay.mry-gradient-overlay {
-	background-image: linear-gradient(269deg, rgba(20, 20, 20, 0) 70%, rgba(20, 20, 20, 0.4) 80%, #343434 100%);
+	background-image: linear-gradient(269deg, rgba(20, 20, 20, 0) 70%, rgba(20, 20, 20, 0.4) 80%, #373e49 100%);
 }
 
 .mry-project-slider-item .mry-project-frame.mry-project-half {
@@ -1054,7 +1054,7 @@ html.is-animating .transition-fade .mry-loading-curtain {
 	.mry-project-slider-item .mry-project-frame .mry-main-title-frame .mry-main-title {
 		margin-left: -15px;
 		padding: 40px;
-		background-color: #343434;
+		background-color: #373e49;
 		width: 100%;
 		max-width: 430px;
 	}
@@ -1089,7 +1089,7 @@ html.is-animating .transition-fade .mry-loading-curtain {
 	right: 0;
 	display: flex;
 	align-items: center;
-	background-color: #343434;
+	background-color: #373e49;
 }
 
 .mry-slider-pagination-frame .mry-slider-pagination {
@@ -1181,7 +1181,7 @@ html.is-animating .transition-fade .mry-loading-curtain {
 	top: 0;
 	padding: 0 20px 0 40px;
 	right: 0;
-	background-color: #343434;
+	background-color: #373e49;
 	display: flex;
 	justify-content: flex-end;
 	align-items: center;
@@ -1488,7 +1488,7 @@ html.is-animating .transition-fade .mry-loading-curtain {
 }
 
 .mry-pagination li.mry-active a {
-	color: #343434;
+	color: #373e49;
 }
 
 .mry-pagination li a {
@@ -1575,7 +1575,7 @@ blockquote {
 	margin: 40px 0;
 	color: #e6e6e6;
 	font-size: 1rem;
-	background: #343434;
+	background: #373e49;
 	padding: 30px 40px 30px 50px;
 	font-style: italic;
 	position: relative;
@@ -1615,7 +1615,7 @@ blockquote:after {
 
 .mry-footer .mry-footer-copy {
 	padding: 40px 0;
-	background-color: #343434;
+	background-color: #373e49;
 	color: rgba(215, 215, 215, 0.8);
 }
 
@@ -1717,7 +1717,7 @@ blockquote:after {
 	bottom: 0;
 	right: 0;
 	color: rgba(215, 215, 215, 0.8);
-	background-color: #343434;
+	background-color: #373e49;
 	padding: 5px 10px;
 	text-decoration: none;
 	font-size: 11px;
@@ -1754,7 +1754,7 @@ blockquote:after {
 	top: 50%;
 	margin-top: -50px;
 	z-index: 3;
-	background-color: #343434;
+	background-color: #373e49;
 	transition: 0.4s ease-in-out;
 }
 
@@ -1952,7 +1952,7 @@ blockquote:after {
 }
 
 .mapboxgl-marker svg circle {
-	fill: #343434;
+	fill: #373e49;
 }
 
 .mapboxgl-marker svg ellipse {
@@ -1996,7 +1996,7 @@ blockquote:after {
 }
 
 .fancybox-container .fancybox-bg {
-	background: #343434;
+	background: #373e49;
 }
 
 .fancybox-slide--video {
@@ -2021,7 +2021,7 @@ blockquote:after {
 }
 
 .fancybox-toolbar {
-	background: #343434;
+	background: #373e49;
 	display: flex;
 	width: 100vw;
 	justify-content: flex-end;
@@ -2073,7 +2073,7 @@ blockquote:after {
 }
 
 .fancybox-thumbs {
-	background-color: #343434;
+	background-color: #373e49;
 }
 
 .fancybox-thumbs__list a:before {
@@ -2109,7 +2109,7 @@ blockquote:after {
 
 .scrollbar-track {
 	width: 5px !important;
-	background-color: #343434 !important;
+	background-color: #373e49 !important;
 }
 
 .scrollbar-track .scrollbar-thumb {

@@ -3,6 +3,7 @@
 }
 .mry-main-title .mry-text{
     font-size: 18px;
+    text-align: justify;
 }
 .custom-padding .mry-main-title h1{
     font-size: 36px;
@@ -40,7 +41,7 @@
 }
 .choose-us .why-box{
     padding: 15px;
-    background-color: #343434;
+    background-color: #373e49;
     backdrop-filter: blur(20px);
     height: 100%;
     border-radius: 8px;
@@ -84,7 +85,7 @@
     justify-content: center;
     position: relative;
     z-index: 1;
-    background-color: #343434;
+    background-color: #373e49;
     padding: 5px;
 }
 .title-breaker span img{
@@ -139,7 +140,7 @@
         width: 100% !important;
     }
     .mry-app .mry-top-panel{
-        background-color:#343434;
+        background-color:#373e49;
     }
     .mry-project-slider-item .mry-main-title-frame{
         height: auto;
