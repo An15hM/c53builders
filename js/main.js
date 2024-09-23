@@ -234,10 +234,10 @@
 	var progressbar = $(".mry-slider-progress-bar");
 
 	var swiper = new Swiper(".mry-main-slider", {
-		// autoplay: {
-		// 	delay: 10000,
-		// 	disableOnInteraction: false
-		// },
+		autoplay: {
+			delay: 10000,
+			disableOnInteraction: false
+		},
 		loop: true,
 		parallax: true,
 		
@@ -251,22 +251,22 @@
 			el: '.mry-slider-pagination',
 			clickable: true,
 		},
-		// on: {
-		// 	init: function () {
-		// 		progressbar.removeClass("animate");
-		// 		progressbar.removeClass("active");
-		// 		progressbar.eq(0).addClass("animate");
-		// 		progressbar.eq(0).addClass("active");
-		// 	},
-		// 	slideChangeTransitionStart: function () {
-		// 		progressbar.removeClass("animate");
-		// 		progressbar.removeClass("active");
-		// 		progressbar.eq(0).addClass("active");
-		// 	},
-		// 	slideChangeTransitionEnd: function () {
-		// 		progressbar.eq(0).addClass("animate");
-		// 	}
-		// }
+		on: {
+			init: function () {
+				progressbar.removeClass("animate");
+				progressbar.removeClass("active");
+				progressbar.eq(0).addClass("animate");
+				progressbar.eq(0).addClass("active");
+			},
+			slideChangeTransitionStart: function () {
+				progressbar.removeClass("animate");
+				progressbar.removeClass("active");
+				progressbar.eq(0).addClass("active");
+			},
+			slideChangeTransitionEnd: function () {
+				progressbar.eq(0).addClass("animate");
+			}
+		}
 	});
 
 	var swiper = new Swiper(".mry-team-slider", {
