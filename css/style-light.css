@@ -76,7 +76,8 @@ body {
 	margin: 0;
 	font-size: 14px;
 	font-weight: 400;
-	font-family: 'Outfit', sans-serif;
+	/* font-family: 'Outfit', sans-serif; */
+	font-family: "Poppins", sans-serif;
 }
 
 .mry-text {
@@ -123,31 +124,32 @@ a, a:hover {
 	color: #010d0d;
 	font-weight: 800;
 	/* font-family: -apple-system, BlinkMacSystemFont, sans-serif; */
-	font-family: 'Outfit', sans-serif;
+	/* font-family: 'Outfit', sans-serif; */
+	font-family: "Poppins", sans-serif;
 }
 
 .mry-h1, h1 {
 	font-size: 72px;
 	line-height: 84px;
-	font-weight: 900;
+	font-weight: 700;
 }
 
 .mry-h2, h2 {
 	font-size: 48px;
 	line-height: 66px;
-	font-weight: 900;
+	font-weight: 700;
 }
 
 .mry-h3, h3 {
 	font-size: 32px;
 	line-height: 40px;
-	font-weight: 900;
+	font-weight: 700;
 }
 
 .mry-h4, h4 {
 	font-size: 22px;
 	line-height: 30px;
-	font-weight: 900;
+	font-weight: 700;
 }
 
 .mry-h6, h6 {
@@ -622,8 +624,9 @@ a, a:hover {
 	display: inline-block;
 	height: 100%;
 	/* font-family: -apple-system, BlinkMacSystemFont, sans-serif; */
-	font-family: 'Outfit', sans-serif;
-	font-weight: 900;
+	/* font-family: 'Outfit', sans-serif; */
+	font-family: "Poppins", sans-serif;
+	font-weight: 700;
 }
 
 .mry-menu nav ul .menu-item.current-menu-item a {
@@ -671,7 +674,7 @@ a, a:hover {
 .mry-menu nav ul .menu-item.menu-item-has-children:after {
 	color: #424242;
 	font-family: "Font Awesome 5 Free";
-	font-weight: 900;
+	font-weight: 700;
 	content: "\f078";
 	position: absolute;
 	top: 15px;
@@ -935,10 +938,11 @@ html.is-animating .transition-fade .mry-loading-curtain {
 .mry-numbering .mry-border-text {
 	line-height: 55px;
 	font-size: 72px;
-	font-weight: 900;
+	font-weight: 700;
 	opacity: 0.1;
 	/* font-family: -apple-system, BlinkMacSystemFont, sans-serif; */
-	font-family: 'Outfit', sans-serif;
+	/* font-family: 'Outfit', sans-serif; */
+	font-family: "Poppins", sans-serif;
 }
 
 /* Slider Project */
@@ -1066,7 +1070,7 @@ html.is-animating .transition-fade .mry-loading-curtain {
 		overflow: hidden;
 		font-size: 32px;
 		line-height: 38px;
-		font-weight: 900;
+		font-weight: 700;
 		letter-spacing: -1px;
 	}
 	.mry-project-slider-item .mry-project-frame .mry-main-title-frame .mry-main-title .mry-mb-20 {
@@ -1587,7 +1591,7 @@ blockquote {
 blockquote:before {
 	position: absolute;
 	font-family: "Font Awesome 5 Free";
-	font-weight: 900;
+	font-weight: 700;
 	content: "\f10d";
 	font-size: 16px;
 	opacity: 0.3;
@@ -1599,7 +1603,7 @@ blockquote:before {
 blockquote:after {
 	position: absolute;
 	font-family: "Font Awesome 5 Free";
-	font-weight: 900;
+	font-weight: 700;
 	content: "\f10d";
 	font-size: 16px;
 	opacity: 0.3;

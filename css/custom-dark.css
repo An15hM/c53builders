@@ -2,7 +2,7 @@
     padding:100px 0;
 }
 .mry-main-title .mry-text{
-    font-size: 22px;
+    font-size: 18px;
 }
 .custom-padding .mry-main-title h1{
     font-size: 36px;
@@ -10,6 +10,7 @@
 }
 .custom-padding .content{
     padding-top: 30px;
+    line-height: 1.8;
 }
 #home-about{
     background-size: cover;
