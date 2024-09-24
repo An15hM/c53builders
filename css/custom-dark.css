@@ -3,7 +3,6 @@
 }
 .mry-main-title .mry-text{
     font-size: 18px;
-    text-align: justify;
 }
 .custom-padding .mry-main-title h1{
     font-size: 36px;
@@ -153,10 +152,47 @@
         margin-left: 0;
     }
     .mry-project-slider-item{
-        height: 85vh;
+        height: 650px;
     }
     .mry-slider-arrows{
         justify-content: center;
         left: 0;
+    }
+    .mry-slider-arrows{
+        top:20px;
+    }
+    .mry-subtitle{
+        padding-left: 0;
+    }
+    .custom-padding {
+        padding: 30px 0;
+    }
+    .custom-padding .mry-main-title h1{
+        font-size: 28px;
+    }
+    .custom-padding .content{
+        text-align: justify;
+        text-align-last: center;
+        padding: 0 10px;
+    }
+    .mry-card-item{
+        text-align: center;
+    }
+    #get-quote{
+        text-align: center;
+    }
+    #get-quote p{
+        text-align: justify;
+        text-align-last: center;
+    }
+    .mry-main-title .mry-text{
+        font-size: 14px;
+        line-height:23px;
+    }
+    .mry-btn, .mry-btn-text{
+        margin-right: 0;
+    }
+    .mry-magnetic-link{
+        height: 60px;
     }
 }
