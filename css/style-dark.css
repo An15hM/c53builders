@@ -74,8 +74,8 @@ body {
 	background-color: #373e49;
 	padding: 0;
 	margin: 0;
-	font-size: 16px;
-	font-weight: 300;
+	font-size: 14px;
+	font-weight: 400;
 	font-family: 'Poppins', sans-serif;
 }
 
@@ -164,10 +164,10 @@ a, a:hover {
 
 .mry-label {
 	color: #e6e6e6;
-	text-transform: uppercase;
-	font-size: 11px;
-	font-weight: 600;
-	letter-spacing: 2px;
+	text-transform: capitalize;
+	font-size: 12px;
+	opacity: 0.7 !important;
+	font-weight: 500;
 	line-height: 15px;
 	padding-top: 3px;
 }
@@ -1002,7 +1002,7 @@ html.is-animating .transition-fade .mry-loading-curtain {
 
 .mry-project-slider-item .mry-project-frame.mry-project-half .mry-cover-frame {
 	float: right;
-	width: 60%;
+	width: 50%;
 	height: 100%;
 	position: relative;
 }
@@ -1521,7 +1521,7 @@ html.is-animating .transition-fade .mry-loading-curtain {
 	padding-left: 20px;
 	margin-bottom: 5px;
 	transition: 0.4s ease-in-out;
-	border-radius: 2px;
+	border-radius: 4px;
 }
 
 .mry-form input::placeholder, .mry-form textarea::placeholder {

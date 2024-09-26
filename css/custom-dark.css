@@ -2,7 +2,8 @@
     padding:100px 0;
 }
 .mry-main-title .mry-text{
-    font-size: 18px;
+    font-size: 16px;
+    padding-right: 15px;
 }
 .custom-padding .mry-main-title h1{
     font-size: 36px;
@@ -93,6 +94,79 @@
 }
 .why-box img{
     filter: invert(1);
+}
+
+.card{
+    background-color:#333942;
+}
+.card{
+    color:#f5f5f5;
+}
+.card p strong{
+    font-weight:600;
+}
+.card .option-list{
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap:5px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.card .option-list .option-list-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:5px;
+    width: calc(20% - 20px);
+}
+.card .option-list .half-width{
+    width: calc(50% - 20px);
+}
+.card .option-list .option-list-item img{
+    height: 48px;
+}
+.card .option-list .option-list-item label{
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:5px;
+    padding:8px 15px;
+    background-color: #373e49;
+    border-radius: 8px;
+    border: 2px solid transparent;
+    width: 100%;
+    transition: all 0.35s ease-in-out;
+}
+.card .option-list .option-list-item label:hover{
+    background-color: #292e35;
+    cursor: pointer;
+}
+.card .option-list .option-list-item label:has(input[type="radio"]:checked) {
+    border-color: #e0c977; /* Change the border color of li when radio is checked */
+    background-color: #292e35;
+}
+.service-content{
+    text-align: justify;
+    font-size: 16px;
+    color:#f5f5f5;
+}
+.mry-btn.custom-button {
+    border-color: #e0c977;
+    background-color: #e0c977;
+    color:#333942;
+}
+.mry-btn.custom-button:hover {
+    border-color: #292e35;
+    background-color: #292e35;
+    color:#e0c977;
 }
 @media (min-width:576px){
     .container,.container-sm{
@@ -194,5 +268,22 @@
     }
     .mry-magnetic-link{
         height: 60px;
+    }
+    .mry-banner h1{
+        font-size: 24px;
+        line-height: 1.25;
+    }
+    .card .option-list .option-list-item{
+        width: calc(50% - 5px);
+    }
+    .card .option-list .option-list-item label{
+        font-size: 12px;
+        font-weight: 400;
+    }
+    .card .option-list .half-width {
+        width:100%;
+    }
+    .mry-magic-cursor{
+        display: none !important;
     }
 }

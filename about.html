@@ -2,15 +2,19 @@
 <html lang="zxx">
 
 
-<!-- Mirrored from ultimatewebsolutions.net/mireya/light/about.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 23 Sep 2024 05:32:25 GMT -->
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+		rel="stylesheet">
 	<!-- color of address bar in mobile browser -->
 	<meta name="theme-color" content="#28292C">
 	<!-- favicon  -->
-	<link rel="shortcut icon" href="img/light/favicon.png" type="image/x-icon">
+	<link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
 	<!-- bootstrap css -->
 	<link rel="stylesheet" href="css/plugins/bootstrap.min.css">
 	<!-- font awesome css -->
@@ -22,9 +26,11 @@
 	<!-- mapbox css -->
 	<link href="css/plugins/mapbox-style.css" rel='stylesheet'>
 	<!-- main css -->
-	<link rel="stylesheet" href="css/style-light.css">
+	<link rel="stylesheet" href="css/style-dark.css">
+	<link rel="stylesheet" href="css/custom-dark.css">
 
-	<title>Mireya</title>
+
+	<title>C-53 Building Services - We Build Your Dream Home</title>
 
 </head>
 
@@ -35,7 +41,7 @@
 		<!-- preloader -->
 		<div class="mry-preloader mry-active">
 			<div class="mry-preloader-content">
-				<img class="mry-logo mry-mb-20" src="img/light/logo.svg" alt="Mireya">
+				<img class="mry-logo mry-mb-20" src="img/logo.png" alt="Mireya">
 				<div class="mry-loader-bar">
 					<div class="mry-loader"></div>
 				</div>
@@ -48,10 +54,13 @@
 		<div class="mry-magic-cursor">
 			<div class="mry-ball">
 				<div class="mry-loader">
-					<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="40px" height="40px" viewBox="0 0 50 50"
+					<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+						x="0px" y="0px" width="40px" height="40px" viewBox="0 0 50 50"
 						style="enable-background:new 0 0 50 50;" xml:space="preserve">
-						<path d="M25.251,6.461c-10.318,0-18.683,8.365-18.683,18.683h4.068c0-8.071,6.543-14.615,14.615-14.615V6.461z">
-							<animateTransform attributeType="xml" attributeName="transform" type="rotate" from="0 25 25" to="360 25 25" dur="0.6s" repeatCount="indefinite" />
+						<path
+							d="M25.251,6.461c-10.318,0-18.683,8.365-18.683,18.683h4.068c0-8.071,6.543-14.615,14.615-14.615V6.461z">
+							<animateTransform attributeType="xml" attributeName="transform" type="rotate" from="0 25 25"
+								to="360 25 25" dur="0.6s" repeatCount="indefinite" />
 						</path>
 					</svg>
 				</div>
@@ -63,15 +72,28 @@
 		<div class="mry-top-panel">
 			<div class="mry-logo-frame">
 				<a href="index-2.html" class="mry-default-link mry-anima-link">
-					<img class="mry-logo" src="img/light/logo.svg" alt="Mireya">
+					<img class="mry-logo" src="img/logo.png" alt="C53 Building Services">
 				</a>
 			</div>
-			<div class="mry-menu-button-frame">
-				<div class="mry-label">Menu</div>
 
-				<div class="mry-menu-btn mry-magnetic-link">
-					<div class="mry-burger mry-magnetic-object">
-						<span></span>
+			<div class="top-flex">
+				<ul>
+					<li>
+						<a href="tel:0756 552 8246" class="text-white"><i class="fa fa-phone"></i>&nbsp;0756 552
+							8246</a>
+					</li>
+					<li>
+						<a href="mailto:info@c-53buildingservices.co.uk" class="text-white"><i
+								class="fa fa-envelope"></i>&nbsp;info@c-53buildingservices.co.uk</a>
+					</li>
+				</ul>
+				<div class="mry-menu-button-frame">
+					<div class="mry-label">Menu</div>
+
+					<div class="mry-menu-btn mry-magnetic-link">
+						<div class="mry-burger mry-magnetic-object">
+							<span></span>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -85,29 +107,31 @@
 					<div class="col-md-4">
 						<nav id="mry-dynamic-menu">
 							<ul>
-								<li class="menu-item menu-item-has-children"><a href="#." class="mry-default-link">Home</a>
+								<li class="menu-item current-menu-item"><a href="#." class="mry-default-link">Home</a>
+								</li>
+								<li class="menu-item"><a href="#" class="mry-anima-link mry-default-link">About
+										Us</a></li>
+								<li class="menu-item menu-item-has-children"><a href="#."
+										class="mry-default-link">Services</a>
 									<ul class="sub-menu">
-										<li class="menu-item"><a href="index-2.html" class="mry-anima-link mry-default-link">Half slider</a></li>
-										<li class="menu-item"><a href="fs-slider.html" class="mry-anima-link mry-default-link">Full width slider</a></li>
+										<li class="menu-item"><a href="#" class="mry-anima-link mry-default-link">New
+												Build</a></li>
+										<li class="menu-item"><a href="#"
+												class="mry-anima-link mry-default-link">Extension</a></li>
+										<li class="menu-item"><a href="#" class="mry-anima-link mry-default-link">Loft
+												Conversion</a></li>
+										<li class="menu-item"><a href="#"
+												class="mry-anima-link mry-default-link">Refurbishing</a></li>
+										<li class="menu-item"><a href="#"
+												class="mry-anima-link mry-default-link">Structural Drawing</a></li>
 									</ul>
 								</li>
-								<li class="menu-item current-menu-item"><a href="about.html" class="mry-anima-link mry-default-link">About</a></li>
-								<li class="menu-item menu-item-has-children"><a href="#." class="mry-default-link">Works</a>
-									<ul class="sub-menu">
-										<li class="menu-item"><a href="portfolio-grid-1.html" class="mry-anima-link mry-default-link">Portfolio grid 1</a></li>
-										<li class="menu-item"><a href="portfolio-grid-2.html" class="mry-anima-link mry-default-link">Portfolio grid 2</a></li>
-										<li class="menu-item"><a href="portfolio-box-1.html" class="mry-anima-link mry-default-link">Portfolio boxed 1</a></li>
-										<li class="menu-item"><a href="portfolio-box-2.html" class="mry-anima-link mry-default-link">Portfolio boxed 2</a></li>
-										<li class="menu-item"><a href="project.html" class="mry-anima-link mry-default-link">Single project</a></li>
-									</ul>
+								<li class="menu-item"><a href="#" class="mry-anima-link mry-default-link">Portfolio</a>
 								</li>
-								<li class="menu-item"><a href="contact.html" class="mry-anima-link mry-default-link">Contact</a></li>
-								<li class="menu-item menu-item-has-children"><a href="#." class="mry-default-link">Blog</a>
-									<ul class="sub-menu">
-										<li class="menu-item"><a href="blog.html" class="mry-anima-link mry-default-link">Blog list</a></li>
-										<li class="menu-item"><a href="publication.html" class="mry-anima-link mry-default-link">Publication</a></li>
-									</ul>
+								<li class="menu-item"><a href="#" class="mry-anima-link mry-default-link">Contact Us</a>
 								</li>
+								<li class="menu-item"><a href="#" class="mry-anima-link mry-default-link">Get
+										A Quote</a></li>
 							</ul>
 						</nav>
 
@@ -116,24 +140,17 @@
 						<div class="mry-info-box-frame">
 							<div class="mry-info-box">
 								<div class="mry-mb-20">
-									<div class="mry-label mry-mb-5">Country:</div>
-									<div class="mry-text">Canada</div>
-								</div>
-								<div class="mry-mb-20">
-									<div class="mry-label mry-mb-5">City:</div>
-									<div class="mry-text">Toronto</div>
-								</div>
-								<div class="mry-mb-20">
 									<div class="mry-label mry-mb-5">Adress:</div>
-									<div class="mry-text">HTGS 4456 North Av.</div>
+									<div class="mry-text">132 Clare Rd, Stanwell, TW19 7EH</div>
 								</div>
 								<div class="mry-mb-20">
 									<div class="mry-label mry-mb-5">Email:</div>
-									<a class="mry-text mry-default-link" href="mailto:mireya.inbox@mail.com">mireya.inbox@mail.com</a>
+									<a class="mry-text"
+										href="mailto:info@c-53buildingservices.co.uk">info@c-53buildingservices.co.uk</a>
 								</div>
-								<div>
+								<div class="mry-mb-20">
 									<div class="mry-label mry-mb-5">Phone:</div>
-									<a class="mry-text mry-default-link" href="#.">+4 9(054) 996 84 25</a>
+									<a class="mry-text" href="tel:0756 552 8246">0756 552 8246</a>
 								</div>
 							</div>
 						</div>
@@ -143,23 +160,33 @@
 		</div>
 		<!-- menu end -->
 
-		<div  class="transition-fade">
+		<div class="transition-fade">
 			<div class="mry-content-frame" id="scroll">
-				<canvas class="mry-dots" style="display: none"></canvas>
 
 				<div class="mry-head-bg">
-					<img src="img/light/projects/prjct-7/1.jpg" alt="background">
+					<img src="img/light/projects/prjct-6/1.jpg" alt="background">
 					<div class="mry-bg-overlay"></div>
 				</div>
 
 				<div class="mry-banner mry-p-140-0">
 					<div class="container">
 						<div class="mry-main-title mry-title-center">
-							<div class="mry-subtitle mry-mb-20 mry-fo">About Us</div>
-							<h1 class="mry-mb-20 mry-fo">Design is Intelligence<br><span class="mry-border-text">Made Visible.</span><span class="mry-animation-el"></span></h1>
-							<div class="mry-text mry-fo"><b>Alina Wheeler</b> - Graphic Designer, Art Director.</div>
+							<div class="mry-subtitle mry-mb-20 mry-fo">About C53 Builders</div>
+							<h1 class="mry-mb-20 mry-fo">A family owned and operated building firm</h1>
+							<div class="row justify-content-center">
+								<div class="col-sm-8">
+									<div class="mry-text mry-fo">
+										C-53 Building Services is a family-run firm offering reliable and affordable
+										construction services to residential and commercial clients across London and
+										Greater London. Based near Heathrow, we specialize in new builds, loft
+										conversions, extensions, and refurbishments, delivering high-quality work
+										through our experienced, skilled professionals.
+									</div>
+								</div>
+							</div>
 							<div class="mry-scroll-hint-frame">
-								<a class="mry-scroll-hint mry-smooth-scroll mry-magnetic-link mry-fo" href="#mry-anchor">
+								<a class="mry-scroll-hint mry-smooth-scroll mry-magnetic-link mry-fo"
+									href="#mry-anchor">
 									<span class="mry-magnetic-object"></span>
 								</a>
 								<div class="mry-label mry-fo">Scroll Down</div>
@@ -179,11 +206,18 @@
 										<div class="mry-border-text">01</div>
 										<div class="mry-subtitle">Who We Are</div>
 									</div>
-									<h3 class="mry-mb-40 mry-fo">Mireya is an award winning full service marketing agency</h3>
-									<p class="mry-text mry-fo">We has expertise in branding and brand strategy, website design, social media management, content marketing, pay-per-click advertising
-										(PPC) and search engine optimization (SEO). As a leading
-										website design company in Toronto we have expertise in WordPress design and development, e-commerce website design and development, Shopify website design and
-										development and cater <br>to SMB and enterprise clients.</p>
+									<h3 class="mry-mb-40 mry-fo">
+										An expert in the business with 20 years of experience in the construction
+										industry
+									</h3>
+									<p class="mry-text mry-fo">
+										C-53 building services are a family owned and operated building firm, providing
+										comprehensive service to residential and commercial clients throughout London
+										and Greater London. Based in near Heathrow, we can offer you reliable,
+										affordable groundwork and construction services carried out by experienced,
+										highly trained professional who take great pride in their work. We are
+										specialists in New Build, Loft Conversion, Extension and Refurbishment.
+									</p>
 								</div>
 
 							</div>
@@ -194,12 +228,22 @@
 										<div class="mry-border-text">02</div>
 										<div class="mry-subtitle">What wy do?</div>
 									</div>
-									<h3 class="mry-mb-40 mry-fo">Relationships come first, everything <br>else follows</h3>
-									<p class="mry-text mry-fo">We take pride in having strong relationships with our clients. To us, business is more than just a handshake and a signed contract.
-										Through our full suite of services, we help businesses reach
-										their goals and
-										maximize return on investment while focusing on transparency and communication.</p>
-									<p class="mry-text mry-fo">Contact us today for your <a href="contact.html" class="mry-default-link">free consultation</a>.</p>
+									<h3 class="mry-mb-40 mry-fo">Relationships come first, everything <br>else follows
+									</h3>
+									<p class="mry-text mry-fo">
+										f you are looking for a reliable builder to renovate your home, we have 20 years
+										of experience in the construction industry. We offer a wide range of quality
+										services. Apartment extension, new construction, renovation, roof repair, etc.
+										All of our craftsmen are well-trained and hold numerous certifications. We are
+										home renovation specialists. Whether you're planning a "great design" or simply
+										want something unique that you can call your own, we can help. We are fully
+										compliant with health and safety regulations . We take great pride in every
+										order from our customers, big or small. We know we can provide the best service
+										possible and are confident that all our work is guaranteed. This includes
+										ensuring that our work is completed on time and within budget.
+									</p>
+									<p class="mry-text mry-fo">Contact us today for your <a href="contact.html"
+											class="mry-default-link">free consultation</a>.</p>
 
 								</div>
 							</div>
@@ -211,7 +255,8 @@
 										<img class="mry-video-cover" src="img/light/content/video.jpg" alt="banner">
 										<div class="mry-cover-overlay"></div>
 										<div class="mry-play-button mry-magnetic-link">
-											<a class="mry-magnetic-object" data-fancybox href="https://vimeo.com/25428289"><i class="fas fa-play"></i></a>
+											<a class="mry-magnetic-object" data-fancybox
+												href="https://vimeo.com/25428289"><i class="fas fa-play"></i></a>
 										</div>
 										<div class="mry-curtain"></div>
 									</div>
@@ -223,160 +268,120 @@
 
 								<div class="mry-numbering mry-fo">
 									<div class="mry-border-text">03</div>
-									<div class="mry-subtitle">Services</div>
+									<div class="mry-subtitle">Why Choose Us ?</div>
 								</div>
 
-								<div class="row">
-									<div class="col-lg-6">
+								<div class="row align-items-md-stretch">
 
-										<div class="mry-text-center mry-mb-100">
-											<h4 class="mry-mb-20 mry-fo">Website design<br>& Development</h4>
-											<p class="mry-text mry-mb-20 mry-fo">Our work empowers businesses to create unique user experiences that engage, captivate, and deliver results. Need your
-												website designed in Toronto?</p>
-											<div class="mry-fo"><a href="contact.html" class="mry-link mry-default-link">Order a service</a></div>
+									<div class="col-lg-6 mb-4">
+
+										<div class="why-box">
+											<div
+												class="mt-3 mb-4 d-flex align-items-center justify-content-center mry-fo">
+												<img src="./img/worker.png" style="height:64px;" alt="">
+											</div>
+
+											<div class="mry-text-center mry-mb-10">
+												<h4 class="mry-mb-20 mry-fo">
+													Skilled Worker</h4>
+												<p class=" mry-text mry-mb-20 mry-fo">All our staff members are highly
+													qualified
+													and professionnal. Team of professionals with right skill to deliver
+													quality.</p>
+
+											</div>
 										</div>
 
 									</div>
-									<div class="col-lg-6">
 
-										<div class="mry-text-center mry-mb-100">
-											<h4 class="mry-mb-20 mry-fo">Creative<br>& Graphic Design</h4>
-											<p class="mry-text mry-fo">We are experienced storytellers, with a knack for incorporating brand insights into compelling designs for use in digital and
-												print advertising campaigns.</p>
-											<div class="mry-fo"><a href="contact.html" class="mry-link mry-default-link">Order a service</a></div>
+									<div class="col-lg-6 mb-4">
+
+										<div class="why-box">
+											<div
+												class="mt-3 mb-4 d-flex align-items-center justify-content-center mry-fo">
+												<img src="./img/verified.png" style="height:64px;" alt="">
+											</div>
+
+											<div class="mry-text-center mry-mb-10">
+												<h4 class="mry-mb-20 mry-fo">
+													Insured Work</h4>
+												<p class=" mry-text mry-mb-20 mry-fo">
+													Our projects are always insured. We do ensure that the ongoing
+													project is
+													always insured for the safety of our clients.
+												</p>
+
+											</div>
 										</div>
 
 									</div>
-									<div class="col-lg-6">
 
-										<div class="mry-text-center mry-mb-100">
-											<h4 class="mry-mb-20 mry-fo">Brand Marketing<br>& Strategy</h4>
-											<p class="mry-text mry-fo">We help businesses construct their identity and develop a tailored and concise brand strategy that will appeal to your target
-												audience.</p>
-											<div class="mry-fo"><a href="contact.html" class="mry-link mry-default-link">Order a service</a></div>
+									<div class="col-lg-6 mb-4">
+
+										<div class="why-box">
+											<div
+												class="mt-3 mb-4 d-flex align-items-center justify-content-center mry-fo">
+												<img src="./img/calculator.png" style="height:64px;" alt="">
+											</div>
+
+											<div class="mry-text-center mry-mb-10">
+												<h4 class="mry-mb-20 mry-fo">
+													Affordable Cost
+												</h4>
+												<p class=" mry-text mry-mb-20 mry-fo">
+													We are very competitive in the market and often provide with
+													valuable
+													suggestions to get the cost affordable to clients.
+												</p>
+
+											</div>
 										</div>
 
-
 									</div>
-									<div class="col-lg-6">
 
-										<div class="mry-text-center mry-mb-100">
-											<h4 class="mry-mb-20 mry-fo">Video Production<br>& Marketing</h4>
-											<p class="mry-text mry-fo">Our video production team films, produces, and edits content that will raise brand awareness, engagement, and conversion rates.
-											</p>
-											<div class="mry-fo"><a href="contact.html" class="mry-link mry-default-link">Order a service</a></div>
+									<div class="col-lg-6 mb-4">
+
+										<div class="why-box">
+											<div
+												class="mt-3 mb-4 d-flex align-items-center justify-content-center mry-fo">
+												<img src="./img/fast-time.png" style="height:64px;" alt="">
+											</div>
+
+											<div class="mry-text-center mry-mb-10">
+												<h4 class="mry-mb-20 mry-fo">
+													On time, every time</h4>
+												<p class=" mry-text mry-mb-20 mry-fo">
+													Our projects are well managed which ensuring the delivery of the
+													project on
+													time everytime to make our clients happy.
+												</p>
+
+											</div>
 										</div>
 
 									</div>
+
 								</div>
 							</div>
+
+
 							<div class="col-lg-12">
 
 								<div class="mry-main-title mry-title-center mry-p-0-40">
 									<div class="mry-numbering mry-fo">
 										<div class="mry-border-text">04</div>
-										<div class="mry-subtitle">Employees</div>
-									</div>
-									<h2 class="mry-fo">Our Amazing Team</h2>
-									<div class="mry-arrows mry-fo">
-										<div class="mry-sl-nav">
-											<div class="mry-prev mry-button-team-prev mry-magnetic-link"><span class="mry-magnetic-object"><i class="fas fa-arrow-left"></i></span></div>
-											<div class="mry-next mry-button-team-next mry-magnetic-link"><span class="mry-magnetic-object"><i class="fas fa-arrow-right"></i></span></div>
-										</div>
-										<div class="mry-label mry-fo">Slider Navigation</div>
-									</div>
-								</div>
-
-							</div>
-							<div class="col-lg-10">
-
-								<div class="swiper-container mry-team-slider mry-mb-100">
-									<div class="swiper-wrapper">
-										<div class="swiper-slide">
-
-											<div class="mry-team-member mry-text-center">
-												<div class="mry-member-photo-frame mry-fo">
-													<img src="img/light/team/team-1.jpg" alt="Team member" >
-													<div class="mry-photo-overlay"></div>
-													<div class="mry-curtain"></div>
-												</div>
-												<h4 class="mry-mb-10 mry-fo">Viktoria Freeman</h4>
-												<p class="mry-text mry-simple-text mry-fo">UI/UX Designer</p>
-											</div>
-
-										</div>
-										<div class="swiper-slide">
-
-											<div class="mry-team-member mry-text-center">
-												<div class="mry-member-photo-frame mry-fo">
-													<img src="img/light/team/team-2.jpg" alt="Team member" >
-													<div class="mry-photo-overlay"></div>
-													<div class="mry-curtain"></div>
-												</div>
-												<h4 class="mry-mb-10 mry-fo">Paul Trueman</h4>
-												<p class="mry-text mry-simple-text mry-fo">UI/UX Designer</p>
-											</div>
-
-										</div>
-										<div class="swiper-slide">
-
-											<div class="mry-team-member mry-text-center">
-												<div class="mry-member-photo-frame mry-fo">
-													<img src="img/light/team/team-3.jpg" alt="Team member" >
-													<div class="mry-photo-overlay"></div>
-													<div class="mry-curtain"></div>
-												</div>
-												<h4 class="mry-mb-10 mry-fo">Mike Oldman</h4>
-												<p class="mry-text mry-simple-text mry-fo">UI/UX Designer</p>
-											</div>
-
-										</div>
-										<div class="swiper-slide">
-
-											<div class="mry-team-member mry-text-center">
-												<div class="mry-member-photo-frame mry-fo">
-													<img src="img/light/team/team-4.jpg" alt="Team member" >
-													<div class="mry-photo-overlay"></div>
-													<div class="mry-curtain"></div>
-												</div>
-												<h4 class="mry-mb-10 mry-fo">Emma Newman</h4>
-												<p class="mry-text mry-simple-text mry-fo">UI/UX Designer</p>
-											</div>
-
-										</div>
-									</div>
-								</div>
-
-							</div>
-							<div class="col-lg-8">
-
-								<div class="mry-mb-100 mry-text-center">
-									<div class="mry-numbering mry-fo">
-										<div class="mry-border-text">05</div>
-										<div class="mry-subtitle">We can become partners</div>
-									</div>
-									<h3 class="mry-mb-40 mry-fo">We’re here to help, let us take it from here.</h3>
-									<p class="mry-text mry-fo">We know that transparency is non-negotiable and that strong communication is the foundation of any great relationship. With the knowledge
-										and expertise at Brand & Mortar we are confident that we
-										can make an
-										impact on your business and its bottom line.</p>
-								</div>
-
-							</div>
-							<div class="col-lg-12">
-
-								<div class="mry-main-title mry-title-center mry-p-0-40">
-									<div class="mry-numbering mry-fo">
-										<div class="mry-border-text">06</div>
 										<div class="mry-subtitle">Testimonials</div>
 									</div>
 									<h2 class="mry-fo">Our customers say</h2>
 									<div class="mry-arrows">
 										<div class="mry-sl-nav mry-fo">
-											<div class="mry-prev mry-button-testimonials-prev mry-magnetic-link"><span class="mry-magnetic-object"><i class="fas fa-arrow-left"></i></span></div>
-											<div class="mry-next mry-button-testimonials-next mry-magnetic-link"><span class="mry-magnetic-object"><i class="fas fa-arrow-right"></i></span></div>
+											<div class="mry-prev mry-button-testimonials-prev mry-magnetic-link"><span
+													class="mry-magnetic-object"><i class="fas fa-arrow-left"></i></span>
+											</div>
+											<div class="mry-next mry-button-testimonials-next mry-magnetic-link"><span
+													class="mry-magnetic-object"><i
+														class="fas fa-arrow-right"></i></span></div>
 										</div>
-										<div class="mry-label mry-fo">Slider Navigation</div>
 									</div>
 								</div>
 
@@ -388,11 +393,15 @@
 										<div class="swiper-slide">
 
 											<div class="mry-title-center">
-												<img src="img/light/clients/c-1.jpg" alt="client" class="mry-reviewer mry-mb-20 mry-fo">
+												<img src="img/light/clients/c-1.jpg" alt="client"
+													class="mry-reviewer mry-mb-20 mry-fo">
 												<h4 class="mry-mb-20 mry-fo">Emma Newman</h4>
 												<div class="mry-subtitle mry-mb-20 mry-fo">Creative director</div>
-												<p class="mry-text mry-fo">We evaluated numerous marketing firms and selected Mireya due to their experience in the solar industry, and the clear
-													understanding of our business objectives that they demonstrated during the
+												<p class="mry-text mry-fo">We evaluated numerous marketing firms and
+													selected Mireya due to their experience in the solar industry, and
+													the clear
+													understanding of our business objectives that they demonstrated
+													during the
 													evaluation
 													process. </p>
 												<ul class="mry-star-rate mry-fo">
@@ -408,11 +417,15 @@
 										<div class="swiper-slide">
 
 											<div class="mry-title-center">
-												<img src="img/light/clients/c-2.jpg" alt="client" class="mry-reviewer mry-mb-20 mry-fo">
+												<img src="img/light/clients/c-2.jpg" alt="client"
+													class="mry-reviewer mry-mb-20 mry-fo">
 												<h4 class="mry-mb-20 mry-fo">Paul Trueman</h4>
 												<div class="mry-subtitle mry-mb-20 mry-fo">Creative director</div>
-												<p class="mry-text mry-fo">We were very impressed with the progressive campaign and thought it spoke volumes to the reality of businesses. We have been
-													working our way into the Toronto area for almost a year now and ready to
+												<p class="mry-text mry-fo">We were very impressed with the progressive
+													campaign and thought it spoke volumes to the reality of businesses.
+													We have been
+													working our way into the Toronto area for almost a year now and
+													ready to
 													gain
 													some traction in that city.</p>
 												<ul class="mry-star-rate mry-fo">
@@ -428,11 +441,15 @@
 										<div class="swiper-slide">
 
 											<div class="mry-title-center">
-												<img src="img/light/clients/c-3.jpg" alt="client" class="mry-reviewer mry-mb-20 mry-fo">
+												<img src="img/light/clients/c-3.jpg" alt="client"
+													class="mry-reviewer mry-mb-20 mry-fo">
 												<h4 class="mry-mb-20 mry-fo">Viktoria Freeman</h4>
 												<div class="mry-subtitle mry-mb-20 mry-fo">Creative director</div>
-												<p class="mry-text mry-fo">We were very impressed with the progressive campaign and thought it spoke volumes to the reality of businesses. We have been
-													working our way into the Toronto area for almost a year now and ready to
+												<p class="mry-text mry-fo">We were very impressed with the progressive
+													campaign and thought it spoke volumes to the reality of businesses.
+													We have been
+													working our way into the Toronto area for almost a year now and
+													ready to
 													gain
 													some traction in that city.</p>
 												<ul class="mry-star-rate mry-fo">
@@ -455,73 +472,119 @@
 				<!-- about end -->
 
 				<!-- footer -->
-				<footer class="mry-footer">
+				<footer class="mry-footer pt-5">
 					<div class="container">
-						<div class="mry-main-title mry-title-center mry-p-0-100">
-							<div class="mry-subtitle mry-mb-20 mry-fo">Call to action</div>
-							<h2 class="mry-h1 mry-mb-20 mry-fo">Do you have <span class="mry-border-text">a project?</span></h2>
-							<div class="mry-text mry-mb-30  mry-fo">Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br>Asperiores, cupiditate?</div>
-							<div class="mry-fo">
-								<a href="contact.html" class="mry-anima-link mry-btn mry-btn-color mry-default-link">Let's discuss</a>
-								<a href="portfolio-grid-1.html" class="mry-anima-link  mry-btn-text mry-default-link">Portfolio</a>
+						<div class="mry-main-title mry-title-center">
+							<div class="mry-subtitle mry-mb-20 mry-fo">Contact Us </div>
+							<h2 class="mry-h1 mry-mb-20 mry-fo">Do you have a
+								project?</h2>
+							<div class="mry-text mry-mb-30  mry-fo">Feel Free to get in touch with us any time.
+							</div>
+							<div class="row justify-content-center">
+								<div class="col-auto mb-3 mb-md-0 text-center">
+									<a class="mry-btn custom-button mry-default-link mry-anima-link" href="#">Get a
+										Quote</a>
+								</div>
+								<div class="col-auto text-center">
+									<a class="mry-btn mry-default-link mry-anima-link" href="#">Contact Us</a>
+								</div>
+							</div>
+							<br><br>
+							<div class="row">
+								<div class="col-lg-6">
+
+									<div class="mry-text-center">
+
+										<div class="mry-fade-object">
+											<h4 class="mry-mb-20 mry-fo">Welcome to visit</h4>
+											<p class="mry-text mry-mb-20 mry-fo">
+												132 Clare Rd, Stanwell, TW19 7EH
+											</p>
+										</div>
+									</div>
+
+								</div>
+								<div class="col-lg-6">
+
+									<div class=" mry-text-center">
+
+										<div class="mry-fade-object">
+											<h4 class="mry-mb-20 mry-fo">Shall we talk?</h4>
+											<p class="mry-text mry-fo">Email: <a
+													href="mailto:info@c-53buildingservices.co.uk">info@c-53buildingservices.co.uk</a>
+												<br><br>Phone: <a href="tel:0756 552 8246">0756 552 8246</a>
+											</p>
+										</div>
+									</div>
+
+								</div>
 							</div>
 						</div>
 					</div>
 					<div class="mry-footer-copy">
-						<div class="container">
-							<div>Mireya © early 2021</div>
-							<ul class="mry-social">
+						<div class="container text-center justify-content-center">
+
+							<ul class="mry-social text-center">
 								<li><a href="#."><i class="fab fa-facebook-f"></i></a></li>
 								<li><a href="#."><i class="fab fa-instagram"></i></a></li>
-								<li><a href="#."><i class="fab fa-behance"></i></a></li>
-								<li><a href="#."><i class="fab fa-dribbble"></i></a></li>
+								<li><a href="#."><i class="fab fa-youtube"></i></a></li>
+								<li><a href="#."><i class="fab fa-whatsapp"></i></a></li>
 							</ul>
-							<div>By: <a href="https://themeforest.net/user/ultimatewebsolutions/" class="mry-default-link" target="_blank">UWS</a></div>
+
 						</div>
 					</div>
 				</footer>
 				<!-- footer end -->
 
 				<div class="mry-head-bg mry-head-bottom">
-					<img src="img/light/projects/prjct-5/1.jpg" alt="background">
+					<img src="img/light/projects/prjct-2/1.jpg" alt="background">
 					<div class="mry-bg-overlay"></div>
 				</div>
 
 			</div>
-
 		</div>
 
-	</div>
 
-	<!-- jquery js -->
-	<script src="js/plugins/jquery.min.js"></script>
-	<!-- tween max js -->
-	<script src="js/plugins/tween-max.min.js"></script>
-	<!-- scroll magic js -->
-	<script src="js/plugins/scroll-magic.js"></script>
-	<!-- scroll magic gsap plugin js -->
-	<script src="js/plugins/scroll-magic-gsap-plugin.js"></script>
-	<!-- swiper js -->
-	<script src="js/plugins/swiper.min.js"></script>
-	<!-- isotope js -->
-	<script src="js/plugins/isotope.min.js"></script>
-	<!-- fancybox js -->
-	<script src="js/plugins/fancybox.min.js"></script>	
-	<!-- mapbox js -->
-	<script src="js/plugins/mapbox.min.js"></script>
-	<!-- smooth scrollbar js -->
-	<script src="js/plugins/smooth-scrollbar.min.js"></script>
-	<!-- overscroll js -->
-	<script src="js/plugins/overscroll.min.js"></script>
-	<!-- canvas js -->
-	<script src="js/plugins/canvas.js"></script>
-	<!-- parsley js -->
-	<script src="js/plugins/parsley.min.js"></script>
-	<!-- main js -->
-	<script src="js/main.js"></script>
+		<!-- jquery js -->
+		<script src="js/plugins/jquery.min.js"></script>
+		<!-- tween max js -->
+		<script src="js/plugins/tween-max.min.js"></script>
+		<!-- scroll magic js -->
+		<script src="js/plugins/scroll-magic.js"></script>
+		<!-- scroll magic gsap plugin js -->
+		<script src="js/plugins/scroll-magic-gsap-plugin.js"></script>
+		<!-- swiper js -->
+		<script src="js/plugins/swiper.min.js"></script>
+		<!-- isotope js -->
+		<script src="js/plugins/isotope.min.js"></script>
+		<!-- fancybox js -->
+		<script src="js/plugins/fancybox.min.js"></script>
+		<!-- mapbox js -->
+		<script src="js/plugins/mapbox.min.js"></script>
+		<!-- smooth scrollbar js -->
+		<script src="js/plugins/smooth-scrollbar.min.js"></script>
+		<!-- overscroll js -->
+		<script src="js/plugins/overscroll.min.js"></script>
+		<!-- canvas js -->
+		<script src="js/plugins/canvas.js"></script>
+		<!-- parsley js -->
+		<script src="js/plugins/parsley.min.js"></script>
+		<!-- main js -->
+		<script src="js/main.js"></script>
+		<script>
+			$(window).scroll(function () {
+				var scroll = $(window).scrollTop();
+
+				//>=, not <=
+				if (scroll >= 500) {
+					//clearHeader, not clearheader - caps H
+					$(".mry-top-panel").addClass("colored");
+				}
+			});
+		</script>
 
 </body>
 
 
-<!-- Mirrored from ultimatewebsolutions.net/mireya/light/about.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 23 Sep 2024 05:32:27 GMT -->
+
 </html>
